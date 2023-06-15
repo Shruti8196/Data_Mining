@@ -1,0 +1,1 @@
+{"m1": 62.517082929611206, "m2": 1.212827205657959, "reason": "For small datasets, 'sorted' in Python may be faster, as it sorts the data in-place. But, for large datasets, 'sortBy' in PySpark can be more efficient, as it takes advantage of Spark's distributed processing capabilities to sort the data in parallel across multiple nodes."}

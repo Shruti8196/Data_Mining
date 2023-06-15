@@ -1,0 +1,186 @@
+
+[Executed at: Thu Apr 20 15:24:11 PDT 2023]
+
+==================================================
+Task 1 (python) runtime (ms), 258777
+Task 1: 2.0 out of 2
+==================================================
+Task 2 (python) runtime (ms), 84508
+Task 2.1: 2.0 out of 2
+Task 2.2: 3.0 out of 3
+==================================================
+task1.scala not found
+Task 1(Scala) runtime (ms), 9
+Task 1 Scala: 0.0
+==================================================
+task2.scala not found
+Task 2 (Scala) runtime (ms), 2
+Task 2.1 Scala:  0.0
+Task 2.2 Scala:  0.0
+==================================================
+
+23/04/20 15:17:33 WARN Utils: Your hostname, ip-172-31-9-134 resolves to a loopback address: 127.0.0.1; using 172.31.9.134 instead (on interface ens5)
+23/04/20 15:17:33 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+:: loading settings :: url = jar:file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /home/ccc_v1_g_d8534_39794/.ivy2/cache
+The jars for the packages stored in: /home/ccc_v1_g_d8534_39794/.ivy2/jars
+graphframes#graphframes added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-0b8a2f62-fb88-42a3-9929-0318e502819f;1.0
+	confs: [default]
+	found graphframes#graphframes;0.8.2-spark3.1-s_2.12 in spark-list
+	found org.slf4j#slf4j-api;1.7.16 in spark-list
+:: resolution report :: resolve 342ms :: artifacts dl 10ms
+	:: modules in use:
+	graphframes#graphframes;0.8.2-spark3.1-s_2.12 from spark-list in [default]
+	org.slf4j#slf4j-api;1.7.16 from spark-list in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-0b8a2f62-fb88-42a3-9929-0318e502819f
+	confs: [default]
+	0 artifacts copied, 2 already retrieved (0kB/9ms)
+23/04/20 15:17:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/04/20 15:17:36 INFO SparkContext: Running Spark version 3.1.2
+23/04/20 15:17:36 INFO ResourceUtils: ==============================================================
+23/04/20 15:17:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/04/20 15:17:36 INFO ResourceUtils: ==============================================================
+23/04/20 15:17:36 INFO SparkContext: Submitted application: task1.py
+23/04/20 15:17:36 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/04/20 15:17:36 INFO ResourceProfile: Limiting resource is cpu
+23/04/20 15:17:36 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/04/20 15:17:36 INFO SecurityManager: Changing view acls to: ccc_v1_g_d8534_39794
+23/04/20 15:17:36 INFO SecurityManager: Changing modify acls to: ccc_v1_g_d8534_39794
+23/04/20 15:17:36 INFO SecurityManager: Changing view acls groups to: 
+23/04/20 15:17:36 INFO SecurityManager: Changing modify acls groups to: 
+23/04/20 15:17:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_d8534_39794); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_d8534_39794); groups with modify permissions: Set()
+23/04/20 15:17:36 INFO Utils: Successfully started service 'sparkDriver' on port 42584.
+23/04/20 15:17:36 INFO SparkEnv: Registering MapOutputTracker
+23/04/20 15:17:36 INFO SparkEnv: Registering BlockManagerMaster
+23/04/20 15:17:36 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/04/20 15:17:36 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/04/20 15:17:36 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/04/20 15:17:36 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b2547a5d-2406-4c43-8201-5fccfc63da85
+23/04/20 15:17:36 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/04/20 15:17:36 INFO SparkEnv: Registering OutputCommitCoordinator
+23/04/20 15:17:37 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/04/20 15:17:37 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.9.134:4040
+23/04/20 15:17:37 INFO SparkContext: Added JAR file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar at spark://172.31.9.134:42584/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO SparkContext: Added JAR file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at spark://172.31.9.134:42584/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO SparkContext: Added file file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar at file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO Utils: Copying /home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar
+23/04/20 15:17:37 INFO SparkContext: Added file file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO Utils: Copying /home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/org.slf4j_slf4j-api-1.7.16.jar
+23/04/20 15:17:37 INFO Executor: Starting executor ID driver on host 172.31.9.134
+23/04/20 15:17:37 INFO Executor: Fetching file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO Utils: /home/ccc_v1_g_d8534_39794/.ivy2/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar has been previously copied to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar
+23/04/20 15:17:37 INFO Executor: Fetching file:///home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO Utils: /home/ccc_v1_g_d8534_39794/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar has been previously copied to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/org.slf4j_slf4j-api-1.7.16.jar
+23/04/20 15:17:37 INFO Executor: Fetching spark://172.31.9.134:42584/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1682029056281
+23/04/20 15:17:37 INFO TransportClientFactory: Successfully created connection to /172.31.9.134:42584 after 41 ms (0 ms spent in bootstraps)
+23/04/20 15:17:37 INFO Utils: Fetching spark://172.31.9.134:42584/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/fetchFileTemp6535497652412294030.tmp
+23/04/20 15:17:37 INFO Utils: /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/fetchFileTemp6535497652412294030.tmp has been previously copied to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/org.slf4j_slf4j-api-1.7.16.jar
+23/04/20 15:17:38 INFO Executor: Adding file:/tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/org.slf4j_slf4j-api-1.7.16.jar to class loader
+23/04/20 15:17:38 INFO Executor: Fetching spark://172.31.9.134:42584/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar with timestamp 1682029056281
+23/04/20 15:17:38 INFO Utils: Fetching spark://172.31.9.134:42584/jars/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/fetchFileTemp9408822252099572644.tmp
+23/04/20 15:17:38 INFO Utils: /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/fetchFileTemp9408822252099572644.tmp has been previously copied to /tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar
+23/04/20 15:17:38 INFO Executor: Adding file:/tmp/spark-206826ad-8c57-4b6c-8bd4-8e8be34e45d7/userFiles-b47a4978-6587-4608-a0fd-0fbd04cf156c/graphframes_graphframes-0.8.2-spark3.1-s_2.12.jar to class loader
+23/04/20 15:17:38 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35212.
+23/04/20 15:17:38 INFO NettyBlockTransferService: Server created on 172.31.9.134:35212
+23/04/20 15:17:38 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/04/20 15:17:38 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.9.134, 35212, None)
+23/04/20 15:17:38 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.9.134:35212 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.9.134, 35212, None)
+23/04/20 15:17:38 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.9.134, 35212, None)
+23/04/20 15:17:38 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.9.134, 35212, None)
+23/04/20 15:17:38 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/mnt/vocwork3/ccc_v1_g_d8534_39794/asn1582479_7/asn1582480_1/2347494/19/work/spark-warehouse').
+23/04/20 15:17:38 INFO SharedState: Warehouse path is 'file:/mnt/vocwork3/ccc_v1_g_d8534_39794/asn1582479_7/asn1582480_1/2347494/19/work/spark-warehouse'.
+23/04/20 15:21:54 WARN Utils: Your hostname, ip-172-31-9-134 resolves to a loopback address: 127.0.0.1; using 172.31.9.134 instead (on interface ens5)
+23/04/20 15:21:54 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+23/04/20 15:21:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/04/20 15:21:57 INFO SparkContext: Running Spark version 3.1.2
+23/04/20 15:21:57 INFO ResourceUtils: ==============================================================
+23/04/20 15:21:57 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/04/20 15:21:57 INFO ResourceUtils: ==============================================================
+23/04/20 15:21:57 INFO SparkContext: Submitted application: task2.py
+23/04/20 15:21:57 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/04/20 15:21:57 INFO ResourceProfile: Limiting resource is cpu
+23/04/20 15:21:57 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/04/20 15:21:57 INFO SecurityManager: Changing view acls to: ccc_v1_g_d8534_39794
+23/04/20 15:21:57 INFO SecurityManager: Changing modify acls to: ccc_v1_g_d8534_39794
+23/04/20 15:21:57 INFO SecurityManager: Changing view acls groups to: 
+23/04/20 15:21:57 INFO SecurityManager: Changing modify acls groups to: 
+23/04/20 15:21:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_d8534_39794); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_d8534_39794); groups with modify permissions: Set()
+23/04/20 15:21:58 INFO Utils: Successfully started service 'sparkDriver' on port 33294.
+23/04/20 15:21:58 INFO SparkEnv: Registering MapOutputTracker
+23/04/20 15:21:58 INFO SparkEnv: Registering BlockManagerMaster
+23/04/20 15:21:58 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/04/20 15:21:58 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/04/20 15:21:58 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/04/20 15:21:58 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-25943af7-ebab-4a55-a2fa-3884b79fd0cc
+23/04/20 15:21:58 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/04/20 15:21:58 INFO SparkEnv: Registering OutputCommitCoordinator
+23/04/20 15:21:59 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/04/20 15:21:59 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.9.134:4040
+23/04/20 15:21:59 INFO Executor: Starting executor ID driver on host 172.31.9.134
+23/04/20 15:22:00 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45642.
+23/04/20 15:22:00 INFO NettyBlockTransferService: Server created on 172.31.9.134:45642
+23/04/20 15:22:00 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/04/20 15:22:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.9.134, 45642, None)
+23/04/20 15:22:00 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.9.134:45642 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.9.134, 45642, None)
+23/04/20 15:22:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.9.134, 45642, None)
+23/04/20 15:22:00 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.9.134, 45642, None)
+23/04/20 15:23:16 WARN Utils: Your hostname, ip-172-31-9-134 resolves to a loopback address: 127.0.0.1; using 172.31.9.134 instead (on interface ens5)
+23/04/20 15:23:16 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+23/04/20 15:23:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/04/20 15:23:18 INFO SparkContext: Running Spark version 3.1.2
+23/04/20 15:23:18 INFO ResourceUtils: ==============================================================
+23/04/20 15:23:18 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/04/20 15:23:18 INFO ResourceUtils: ==============================================================
+23/04/20 15:23:18 INFO SparkContext: Submitted application: task2.py
+23/04/20 15:23:18 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/04/20 15:23:18 INFO ResourceProfile: Limiting resource is cpu
+23/04/20 15:23:18 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/04/20 15:23:18 INFO SecurityManager: Changing view acls to: ccc_v1_g_d8534_39794
+23/04/20 15:23:18 INFO SecurityManager: Changing modify acls to: ccc_v1_g_d8534_39794
+23/04/20 15:23:18 INFO SecurityManager: Changing view acls groups to: 
+23/04/20 15:23:18 INFO SecurityManager: Changing modify acls groups to: 
+23/04/20 15:23:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_d8534_39794); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_d8534_39794); groups with modify permissions: Set()
+23/04/20 15:23:18 INFO Utils: Successfully started service 'sparkDriver' on port 32946.
+23/04/20 15:23:18 INFO SparkEnv: Registering MapOutputTracker
+23/04/20 15:23:18 INFO SparkEnv: Registering BlockManagerMaster
+23/04/20 15:23:18 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/04/20 15:23:18 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/04/20 15:23:18 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/04/20 15:23:18 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-82dd012b-6337-4383-b33d-def726b6abfb
+23/04/20 15:23:18 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/04/20 15:23:18 INFO SparkEnv: Registering OutputCommitCoordinator
+23/04/20 15:23:18 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/04/20 15:23:18 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.9.134:4040
+23/04/20 15:23:19 INFO Executor: Starting executor ID driver on host 172.31.9.134
+23/04/20 15:23:19 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40388.
+23/04/20 15:23:19 INFO NettyBlockTransferService: Server created on 172.31.9.134:40388
+23/04/20 15:23:19 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/04/20 15:23:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.9.134, 40388, None)
+23/04/20 15:23:19 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.9.134:40388 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.9.134, 40388, None)
+23/04/20 15:23:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.9.134, 40388, None)
+23/04/20 15:23:19 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.9.134, 40388, None)

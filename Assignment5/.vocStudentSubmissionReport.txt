@@ -1,0 +1,27 @@
+
+[Executed at: Thu Apr 13 8:58:43 PDT 2023]
+
+2023-04-13 08:58:01 WARN  Utils:66 - Your hostname, ip-172-31-13-224 resolves to a loopback address: 127.0.0.1; using 172.31.13.224 instead (on interface ens5)
+2023-04-13 08:58:01 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:01 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+=======================================================
+task1 pass
+=======================================================
+2023-04-13 08:58:12 WARN  Utils:66 - Your hostname, ip-172-31-13-224 resolves to a loopback address: 127.0.0.1; using 172.31.13.224 instead (on interface ens5)
+2023-04-13 08:58:12 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:12 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+=======================================================
+task2 pass
+=======================================================
+2023-04-13 08:58:26 WARN  Utils:66 - Your hostname, ip-172-31-13-224 resolves to a loopback address: 127.0.0.1; using 172.31.13.224 instead (on interface ens5)
+2023-04-13 08:58:26 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:27 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+=======================================================
+task3 pass
+=======================================================

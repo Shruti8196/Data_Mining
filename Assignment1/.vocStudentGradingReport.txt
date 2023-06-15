@@ -1,0 +1,124 @@
+
+[Executed at: Tue Feb 7 22:22:49 PST 2023]
+
+========================= Task 1 Python =========================
+task1, 3.0
+
+========================= Task 2 Python =========================
+task2, 2
+
+========================= Task 3 Python =========================
+task3, 2
+
+
+23/02/07 22:08:15 WARN Utils: Your hostname, ip-172-31-31-80 resolves to a loopback address: 127.0.0.1; using 172.31.31.80 instead (on interface ens5)
+23/02/07 22:08:15 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/02/07 22:08:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/02/07 22:08:19 INFO SparkContext: Running Spark version 3.1.2
+23/02/07 22:08:20 INFO ResourceUtils: ==============================================================
+23/02/07 22:08:20 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/02/07 22:08:20 INFO ResourceUtils: ==============================================================
+23/02/07 22:08:20 INFO SparkContext: Submitted application: task1.py
+23/02/07 22:08:20 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/02/07 22:08:20 INFO ResourceProfile: Limiting resource is cpu
+23/02/07 22:08:20 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/02/07 22:08:20 INFO SecurityManager: Changing view acls to: ccc_v1_g_fa003_38661
+23/02/07 22:08:20 INFO SecurityManager: Changing modify acls to: ccc_v1_g_fa003_38661
+23/02/07 22:08:20 INFO SecurityManager: Changing view acls groups to: 
+23/02/07 22:08:20 INFO SecurityManager: Changing modify acls groups to: 
+23/02/07 22:08:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_fa003_38661); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_fa003_38661); groups with modify permissions: Set()
+23/02/07 22:08:21 INFO Utils: Successfully started service 'sparkDriver' on port 42295.
+23/02/07 22:08:21 INFO SparkEnv: Registering MapOutputTracker
+23/02/07 22:08:21 INFO SparkEnv: Registering BlockManagerMaster
+23/02/07 22:08:21 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/02/07 22:08:21 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/02/07 22:08:21 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/02/07 22:08:21 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-fad61c3b-6a97-429e-8a0e-ee017c52cab8
+23/02/07 22:08:21 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+23/02/07 22:08:21 INFO SparkEnv: Registering OutputCommitCoordinator
+23/02/07 22:08:22 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+23/02/07 22:08:22 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+23/02/07 22:08:23 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.31.80:4041
+23/02/07 22:08:24 INFO Executor: Starting executor ID driver on host 172.31.31.80
+23/02/07 22:08:24 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43452.
+23/02/07 22:08:24 INFO NettyBlockTransferService: Server created on 172.31.31.80:43452
+23/02/07 22:08:24 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/07 22:08:24 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.31.80, 43452, None)
+23/02/07 22:08:24 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.31.80:43452 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.31.80, 43452, None)
+23/02/07 22:08:24 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.31.80, 43452, None)
+23/02/07 22:08:24 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.31.80, 43452, None)
+23/02/07 22:15:19 WARN Utils: Your hostname, ip-172-31-31-80 resolves to a loopback address: 127.0.0.1; using 172.31.31.80 instead (on interface ens5)
+23/02/07 22:15:19 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/02/07 22:15:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/02/07 22:15:21 INFO SparkContext: Running Spark version 3.1.2
+23/02/07 22:15:21 INFO ResourceUtils: ==============================================================
+23/02/07 22:15:21 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/02/07 22:15:21 INFO ResourceUtils: ==============================================================
+23/02/07 22:15:21 INFO SparkContext: Submitted application: task2.py
+23/02/07 22:15:22 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/02/07 22:15:22 INFO ResourceProfile: Limiting resource is cpu
+23/02/07 22:15:22 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/02/07 22:15:22 INFO SecurityManager: Changing view acls to: ccc_v1_g_fa003_38661
+23/02/07 22:15:22 INFO SecurityManager: Changing modify acls to: ccc_v1_g_fa003_38661
+23/02/07 22:15:22 INFO SecurityManager: Changing view acls groups to: 
+23/02/07 22:15:22 INFO SecurityManager: Changing modify acls groups to: 
+23/02/07 22:15:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_fa003_38661); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_fa003_38661); groups with modify permissions: Set()
+23/02/07 22:15:22 INFO Utils: Successfully started service 'sparkDriver' on port 37757.
+23/02/07 22:15:23 INFO SparkEnv: Registering MapOutputTracker
+23/02/07 22:15:23 INFO SparkEnv: Registering BlockManagerMaster
+23/02/07 22:15:23 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/02/07 22:15:23 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/02/07 22:15:23 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/02/07 22:15:23 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-ee29a93b-d49d-47b7-af9e-df1a4dc667c4
+23/02/07 22:15:23 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+23/02/07 22:15:23 INFO SparkEnv: Registering OutputCommitCoordinator
+23/02/07 22:15:24 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+23/02/07 22:15:24 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+23/02/07 22:15:24 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.31.80:4041
+23/02/07 22:15:25 INFO Executor: Starting executor ID driver on host 172.31.31.80
+23/02/07 22:15:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40269.
+23/02/07 22:15:25 INFO NettyBlockTransferService: Server created on 172.31.31.80:40269
+23/02/07 22:15:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/07 22:15:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.31.80, 40269, None)
+23/02/07 22:15:25 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.31.80:40269 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.31.80, 40269, None)
+23/02/07 22:15:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.31.80, 40269, None)
+23/02/07 22:15:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.31.80, 40269, None)
+23/02/07 22:17:59 WARN Utils: Your hostname, ip-172-31-31-80 resolves to a loopback address: 127.0.0.1; using 172.31.31.80 instead (on interface ens5)
+23/02/07 22:17:59 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/02/07 22:18:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/02/07 22:18:06 INFO SparkContext: Running Spark version 3.1.2
+23/02/07 22:18:06 INFO ResourceUtils: ==============================================================
+23/02/07 22:18:06 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/02/07 22:18:06 INFO ResourceUtils: ==============================================================
+23/02/07 22:18:06 INFO SparkContext: Submitted application: task3.py
+23/02/07 22:18:06 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/02/07 22:18:06 INFO ResourceProfile: Limiting resource is cpu
+23/02/07 22:18:06 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/02/07 22:18:07 INFO SecurityManager: Changing view acls to: ccc_v1_g_fa003_38661
+23/02/07 22:18:07 INFO SecurityManager: Changing modify acls to: ccc_v1_g_fa003_38661
+23/02/07 22:18:07 INFO SecurityManager: Changing view acls groups to: 
+23/02/07 22:18:07 INFO SecurityManager: Changing modify acls groups to: 
+23/02/07 22:18:07 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ccc_v1_g_fa003_38661); groups with view permissions: Set(); users  with modify permissions: Set(ccc_v1_g_fa003_38661); groups with modify permissions: Set()
+23/02/07 22:18:08 INFO Utils: Successfully started service 'sparkDriver' on port 43344.
+23/02/07 22:18:09 INFO SparkEnv: Registering MapOutputTracker
+23/02/07 22:18:09 INFO SparkEnv: Registering BlockManagerMaster
+23/02/07 22:18:09 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/02/07 22:18:09 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/02/07 22:18:09 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/02/07 22:18:09 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-9c661a5a-e4dc-4107-af82-ea1a25d99b69
+23/02/07 22:18:09 INFO MemoryStore: MemoryStore started with capacity 2004.6 MiB
+23/02/07 22:18:09 INFO SparkEnv: Registering OutputCommitCoordinator
+23/02/07 22:18:11 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+23/02/07 22:18:11 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+23/02/07 22:18:11 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.31.80:4041
+23/02/07 22:18:13 INFO Executor: Starting executor ID driver on host 172.31.31.80
+23/02/07 22:18:13 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41562.
+23/02/07 22:18:13 INFO NettyBlockTransferService: Server created on 172.31.31.80:41562
+23/02/07 22:18:13 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/07 22:18:13 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.31.80, 41562, None)
+23/02/07 22:18:13 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.31.80:41562 with 2004.6 MiB RAM, BlockManagerId(driver, 172.31.31.80, 41562, None)
+23/02/07 22:18:13 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.31.80, 41562, None)
+23/02/07 22:18:13 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.31.80, 41562, None)

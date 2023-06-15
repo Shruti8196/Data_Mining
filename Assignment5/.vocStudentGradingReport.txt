@@ -1,0 +1,22 @@
+
+[Executed at: Thu Apr 13 8:58:44 PDT 2023]
+
+2023-04-13 08:58:06 WARN  Utils:66 - Your hostname, ip-172-31-10-118 resolves to a loopback address: 127.0.0.1; using 172.31.10.118 instead (on interface ens5)
+2023-04-13 08:58:06 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:06 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2023-04-13 08:58:15 WARN  Utils:66 - Your hostname, ip-172-31-10-118 resolves to a loopback address: 127.0.0.1; using 172.31.10.118 instead (on interface ens5)
+2023-04-13 08:58:15 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:15 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2023-04-13 08:58:26 WARN  Utils:66 - Your hostname, ip-172-31-10-118 resolves to a loopback address: 127.0.0.1; using 172.31.10.118 instead (on interface ens5)
+2023-04-13 08:58:26 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2023-04-13 08:58:26 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+hw5.jar not found
+task1, 2.5
+task2, 2.5
+task3, 2
