@@ -1,11 +1,5 @@
-## DSCI_553 (Foundations and Applications of Data Mining)
-
 #### Description
-Data mining is a foundational piece of the data analytics skill set. At a high level, it allows the
-analyst to discover patterns in data, and transform it into a usable product. The course will
-taught data mining algorithms for analyzing very large data sets. It had an applied focus, in
-that it was meant for preparing students to utilize topics in data mining to solve real world
-problems
+Data mining is an essential component of the data analytics skill set, enabling analysts to unveil patterns in data and convert it into practical insights. The course will concentrate on teaching data mining algorithms suitable for analyzing extensive datasets. With a strong applied focus, the curriculum aims to equip students with the ability to leverage data mining techniques to address real-world challenges effectively.
 
 #### Homeworks
 These following code are my homework source code.
